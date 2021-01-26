@@ -12,8 +12,6 @@ import random
 
 app1=Flask(__name__)
 
-#@app1.route('/')
-
 @app1.route('/mypage/me', methods=['GET'])
 def about_me():
     return render_template("1stside.html")
