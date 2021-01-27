@@ -1,5 +1,5 @@
 
-{% extends "1stside.html" %}
+{% extends "me.html" %}
 {% block content %}
 <!DOCTYPE html>
 <html lang="en">
@@ -13,11 +13,10 @@
     </ul>
 
 <h3>Wyślij wiadomość:</h3>
-<form>
-  <input type="text" id="fname" name="fname">
+<form method="POST"> 
+  <input  type="text" id="fname" name="fname">
   <button type="button">Prześlij</button>
 </form>
-<link rel="stylesheet" href="2ndside.css">
 </head>
 
 
